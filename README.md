@@ -1,2 +1,14 @@
 # telegram-giveaway-bot
-Этот бот предназначен для проведения розыгрышей в Telegram. Он позволяет пользователям регистрироваться для участия в розыгрышах, проверяя их подписку на указанные каналы.
+# Telegram Giveaway Bot
+
+## Описание
+
+Бот для проведения розыгрышей в Telegram с проверкой подписки и ограничением по IP-адресам.
+
+## Установка
+
+1. Клонируйте репозиторий:
+
+   ```bash
+   git clone https://github.com/lika-netizen/telegram-giveaway-bot.git
+   cd telegram-giveaway-bot
