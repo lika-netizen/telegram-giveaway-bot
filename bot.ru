@@ -3,7 +3,7 @@ from telebot import types
 import requests
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")  # Установи переменную окружения или вставь токен сюда
+TOKEN = 8084623472:AAGmA7qHj3St9Ro87pnocx66f2qEwSKgA1c  # Установи переменную окружения или вставь токен сюда
 bot = telebot.TeleBot(TOKEN)
 
 saved_groups = set()  # Просто для примера, в реальности — база
