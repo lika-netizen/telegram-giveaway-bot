@@ -1,0 +1,14 @@
+Commands to create a GitHub repo and push local code:
+
+# Initialize git
+git init
+git add .
+git commit -m "Initial commit: Telegram giveaway bot prototype"
+
+# Create remote repo on GitHub (use gh CLI) or create via web UI
+# If using GitHub CLI:
+gh repo create your-username/giveaway-bot --public --source=. --remote=origin
+
+# Or manually:
+git remote add origin https://github.com/your-username/giveaway-bot.git
+git push -u origin main
