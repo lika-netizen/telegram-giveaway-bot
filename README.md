@@ -1,5 +1,4 @@
 # telegram-giveaway-bot
-# Telegram Giveaway Bot
 
 ## Описание
 
