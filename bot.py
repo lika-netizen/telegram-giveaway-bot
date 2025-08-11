@@ -46,4 +46,7 @@ def participate(message):
         markup.add(btn)
         bot.send_message(message.chat.id, "Нажмите для подтверждения участия:", reply_markup=markup)
 
-bot.polling()
+if __name__ == "__main__":
+    print("Бот запущен...")
+    bot.polling(none_stop=True)
+
